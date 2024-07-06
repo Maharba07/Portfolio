@@ -19,9 +19,15 @@
     "theme-change": "^2.5.0"
   },
   "devDependencies": {
+    "@types/caseless": "^0.12.5",
+    "@types/connect": "^3.4.38",
+    "@types/estree": "^1.0.5",
+    "@types/json-schema": "^7.0.15",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@types/request": "^2.48.12",
+    "@types/tough-cookie": "^4.0.5",
     "daisyui": "^4.12.2",
     "eslint": "^8",
     "eslint-config-next": "14.2.4",
