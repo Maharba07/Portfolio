@@ -67,7 +67,7 @@ export default function Home() {
           className="link link-accent text-center font-extrabold"
           href="mailto:maharba1707@gmail.com?"
         >
-          maharba1707@gmail.com
+          maharba1707@gmail2.com
         </a>
       </div>
     </main>
