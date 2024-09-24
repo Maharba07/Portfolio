@@ -1,5 +1,6 @@
 import Image from "next/image";
 import image from "../../public/images/perfil.jpeg";
+import urlImage from "../../public/images/url_shortner.png"
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center">
@@ -13,9 +14,9 @@ export default function Home() {
           </p>
           <div className="divider divider-info text-2xl font-extrabold"> </div>
           <p className="text-2xl">
-            Hi! I'm a passionate web designer and developer 💻. I love creating
+            Hi! Im a passionate web designer and developer 💻. I love creating
             modern and interactive designs with a focus on user experience 🎨.
-            Let’s work together to build something amazing! 🚀
+            Lets work together to build something amazing! 🚀
           </p>
         </div>
       </div>
@@ -64,11 +65,11 @@ export default function Home() {
         {/* Carrusel de proyectos */}
         <div className="carousel w-full rounded-lg shadow-lg">
           <div id="slide1" className="carousel-item relative w-full">
-            <img
-              src="/images/url_shortner.png"
-              className="h-64 w-full object-cover"
-              alt="Proyecto 1"
-            />
+          <Image
+   src={urlImage}
+   className="h-64 w-full object-cover"
+   alt="Proyecto 1"
+/>
             <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
               <a href="#slide4" className="btn btn-circle">
                 ❮
