@@ -1,6 +1,6 @@
 import Image from "next/image";
 import image from "../../public/images/perfil.jpeg";
-import urlImage from "../../public/images/url_shortner.png"
+import urlImage from "../../public/images/url_shortner.png";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center">
@@ -10,7 +10,10 @@ export default function Home() {
         <div className="collapse-title text-xl font-medium">About Me! 😊</div>
         <div className="collapse-content">
           <p className="text-2xl">
-          ¡Hola! Soy un apasionado diseñador y desarrollador web 💻. Me encanta crear diseños modernos e interactivos, con un enfoque en la experiencia del usuario 🎨. ¡Trabajemos juntos para construir algo increíble! 🚀
+            ¡Hola! Soy un apasionado diseñador y desarrollador web 💻. Me
+            encanta crear diseños modernos e interactivos, con un enfoque en la
+            experiencia del usuario 🎨. ¡Trabajemos juntos para construir algo
+            increíble! 🚀
           </p>
           <div className="divider divider-info text-2xl font-extrabold"> </div>
           <p className="text-2xl">
@@ -29,12 +32,13 @@ export default function Home() {
           corporis dicta soluta
         </p> */}
       </div>
-      <div className="text-center mt-4">
-    <h2 className="text-2xl font-bold">Abraham García</h2>
-    <p className="text-lg">
-      Desarrollador web apasionado por el diseño moderno y las experiencias interactivas.
-    </p>
-  </div>
+      <div className="mt-4 text-center">
+        <h2 className="text-2xl font-bold">Abraham García</h2>
+        <p className="text-lg">
+          Desarrollador web apasionado por el diseño moderno y las experiencias
+          interactivas.
+        </p>
+      </div>
       {/* Boton para el modo oscuro */}
       <label className="swap swap-rotate bottom-40 place-self-start">
         <input type="checkbox" className="theme-controller" value="cupcake" />
@@ -65,11 +69,11 @@ export default function Home() {
         {/* Carrusel de proyectos */}
         <div className="carousel w-full rounded-lg shadow-lg">
           <div id="slide1" className="carousel-item relative w-full">
-          <Image
-   src={urlImage}
-   className="h-64 w-full object-cover"
-   alt="Proyecto 1"
-/>
+            <Image
+              src={urlImage}
+              className="h-64 w-full object-cover"
+              alt="Proyecto 1"
+            />
             <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
               <a href="#slide4" className="btn btn-circle">
                 ❮
@@ -80,7 +84,7 @@ export default function Home() {
             </div>
           </div>
           <div id="slide2" className="carousel-item relative w-full">
-            <img
+            <Image
               src="https://img.daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.webp"
               className="h-64 w-full object-cover"
               alt="Proyecto 2"
@@ -95,7 +99,7 @@ export default function Home() {
             </div>
           </div>
           <div id="slide3" className="carousel-item relative w-full">
-            <img
+            <Image
               src="https://img.daisyui.com/images/stock/photo-1414694762283-acccc27bca85.webp"
               className="h-64 w-full object-cover"
               alt="Proyecto 3"
@@ -110,7 +114,7 @@ export default function Home() {
             </div>
           </div>
           <div id="slide4" className="carousel-item relative w-full">
-            <img
+            <Image
               src="https://img.daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.webp"
               className="h-64 w-full object-cover"
               alt="Proyecto 4"
