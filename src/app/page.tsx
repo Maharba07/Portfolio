@@ -27,10 +27,6 @@ export default function Home() {
         <div className="w-40 rounded-full">
           <Image src={image} alt="Imagen de perfil" />
         </div>
-        {/* <p className="text 2xl text-end">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
-          corporis dicta soluta
-        </p> */}
       </div>
       <div className="mt-4 text-center">
         <h2 className="text-2xl font-bold">Abraham García</h2>
@@ -66,7 +62,6 @@ export default function Home() {
           Proyectos
         </div>
 
-        {/* Carrusel de proyectos */}
         <div className="carousel w-full rounded-lg shadow-lg">
           <div id="slide1" className="carousel-item relative w-full">
             <Image
